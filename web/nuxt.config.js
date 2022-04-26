@@ -113,6 +113,10 @@ export default {
       ssr: false
     },
     {
+      src: '@/plugins/vue-json-editor',
+      ssr: false
+    },
+    {
       src: '@/plugins/vue-mavon-editor',
       ssr: false
     },

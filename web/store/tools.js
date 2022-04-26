@@ -23,6 +23,15 @@ export const state = () => {
                     hot:'recommend'//debug new recommend
                 },
                 {
+                    name: '格式化Json',
+                    path: '/formatjson',
+                    head: {
+                        keywords: ['json', '格式化json'],
+                        description: '格式化json'
+                    },
+                    hot:'recommend'//debug new recommend
+                },
+                {
                     name: 'Leetcode',
                     path: 'https://leetcode-cn.com/',
                     head: {
